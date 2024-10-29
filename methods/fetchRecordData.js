@@ -2,7 +2,7 @@ const utils = require("../static/utils");
 
 async function fetchRecordData(token, recordId) {
     try {
-      console.log("coming here");
+      // console.log("coming here");
       const resp = await utils.axios.get(
         utils.APR_CREDENTIALS.getRecord + recordId,
         {

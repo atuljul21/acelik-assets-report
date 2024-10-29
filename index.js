@@ -6,6 +6,7 @@ const app = express();
 app.use(express.json());
 const createExcelSheet = require("./methods/createExcel");
 const fetchAllRecordIds = require("./methods/fetchAllRecordsData");
+const updateVXNumberInExcel = require("./methods/updateVXNumberFromExcel");
 const runGetAdditionalFileTitle = async () => {
   try {
     const authToken = await Auth();
@@ -21,7 +22,8 @@ const runGetAdditionalFileTitle = async () => {
   }
 };
 
-runGetAdditionalFileTitle();
+// runGetAdditionalFileTitle();
+updateVXNumberInExcel();
 
 const PORT = 3010;
 app.listen(PORT, () => {

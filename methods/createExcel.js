@@ -41,7 +41,7 @@ const path = require("path");
 const XLSX = utils.XLSX;
 const getAdditionalFileTitle = require("./getAdditionalFileTitle");
 const MAX_CELL_LENGTH = 32767; // Excel cell character limit
-const START_CHUNK = 1; // Starting from the 1st chunk
+const START_CHUNK = 5; // Starting from the 5th chunk
 
 async function createExcelSheet() {
   try {
