@@ -1,0 +1,17 @@
+{
+  "client_id": "QX4QRGL9-QX4Q",
+  "API_URL": "https://arcelik.aprimo.com/api/oauth/create-native-token",
+  "Auth_Token": "YXBpLnVzZXI6NTM3YmM4NjRiNzYwNDJlMDlmZDNjNDc2NWZiNzc1OGE=",
+  "GetProject": "https://arcelik.aprimo.com/api/projects",
+  "updateProject": "https://arcelik.aprimo.com/api/",
+  "GetCamp": "https://arcelik.aprimo.com/api/activities/",
+  "activitySearch": "https://arcelik.aprimo.com/api/activities/search",
+  "getBrandList_URL": "https://arcelik.aprimo.com/api/extended-attributes/9/pick-list-options",
+  "getCountryList_URL": "https://arcelik.aprimo.com/api/extended-attributes/6902/pick-list-options",
+  "getMediaTypeList_URL": "https://arcelik.aprimo.com/api/extended-attributes/2501/pick-list-options",
+  "getBudgetOwnerList_URL": "https://arcelik.aprimo.com/api/extended-attributes/2901/pick-list-options",
+  "getCurrencyList_URL": "https://arcelik.aprimo.com/api/extended-attributes/1301/pick-list-options",
+   "getRecord":"https://arcelik.dam.aprimo.com/api/core/record/",
+   "getRecords":"https://arcelik.dam.aprimo.com/api/core/records",
+  "Api_version": "1"
+}
